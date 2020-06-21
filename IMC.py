@@ -7,6 +7,7 @@ def imc(peso, altura):
 print(imc(74, 1.71))
 
 """
+
 IMC EN PULGADAS
 
 """
