@@ -11,7 +11,7 @@ else:
     print("Lo siento, no puede ser un tri�ngulo.")
 
 """
-Triangulo rectangulo
+Triangulo
 """
 def esUnTriangulo(a, b, c):
     return a + b > c and b + c > a and c + a > b
