@@ -23,7 +23,7 @@ for i in range(len(testData)):
 
 ################################################
 
-        def isYearLeap(year):
+def isYearLeap(year):
 
     if year <= 1582:
         print("No dentro del periodo del calendario gregoriano")
