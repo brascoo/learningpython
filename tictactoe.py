@@ -25,7 +25,8 @@ def DisplayBoard(board):
 # y lo muestra en la consola
 #
 
-#def EnterMove(board):
+def EnterMove(board):
+    
 #
 # la función acepta el estado actual del tablero y pregunta al usuario acerca de su movimiento, 
 # verifica la entrada y actualiza el tablero acorde a la decisión del usuario
