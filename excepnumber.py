@@ -3,7 +3,7 @@
 def readint(prompt, min, max):
     
     try:
-        prompt = int(input('Ingresa un numero de -10 a 10: '))
+        prompt = int(input(prompt))
         min = -10
         max = 10
         if prompt >= min and prompt <= max:
@@ -13,8 +13,8 @@ def readint(prompt, min, max):
         print('Error: entrada incorrecta')
         readint(prompt,min,max)
     #except TypeError:
-    #    print('Error: el valor no está dentro del rango permitido (-10..10)')
-    #    readint(prompt,min,max)
+    #    print('Error: el valor no está dentro del rango permitido ({min}..{max})')
+     #   readint(prompt,min,max)
 
 v = readint("Ingresa un numero de -10 a 10: ", -10, 10)
 
