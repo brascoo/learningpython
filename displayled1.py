@@ -83,8 +83,11 @@ print(digit[0][4] + ' ' + digit[1][4] + ' ' + digit[2][4])
   imprimir renglón
 """
 numero = int(input("ingresa un numero:"))
-
+x = int(len(numero))
 for i in range(5):
     renglon = ""
-    renglon = (digit[numero][i])
+    
+    for cifra in range(x):
+        renglon = (digit[numero][i] + " " + digit[cifra][i])
+    
     print(renglon)
